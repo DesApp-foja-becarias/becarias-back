@@ -48,7 +48,7 @@ Asumiendo que ya configuraste todos los prerrequisitos y que vas a utilizar Dock
 docker-compose up -d
 
 # Copia las variables de entorno necesarias para acceder a las bases de datos.
-cp .env.example .env
+cp .env.example .env -> en realidad es: cp .env.example .env.development
 
 # Instala las dependencias Node del proyecto.
 npm install
