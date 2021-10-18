@@ -48,7 +48,7 @@ Asumiendo que ya configuraste todos los prerrequisitos y que vas a utilizar Dock
 docker-compose up -d
 
 # Copia las variables de entorno necesarias para acceder a las bases de datos.
-cp .env.example .env
+cp .env.example .env -> en realidad es: cp .env.example .env.development y -> cp .env.example .env.test
 
 # Instala las dependencias Node del proyecto.
 npm install
@@ -142,3 +142,10 @@ Actualmente, este atributo hace referencia a otro atributo `lint-staged`.
 
 - Si se eliminan ambos elementos del `package.json`, no va a hacer ninguna acción previa a commitear.
 - Si se modifica `lint-staged`, se puede eliminar, o modificar la configuración, del chequeo (`eslint`) y/o el formateo (`prettier`) de código. Obviamente, para modificar las configuraciones, hay que mirar cómo en la documentación de [ESLint](https://eslint.org/) y/o [Prettier](https://prettier.io/).
+
+### Comandos importantes
+## Docker
+  - docker-compose stop <nombre de docker o id del container> -> baja/para el docker que esta levantado
+  - docker-compose down -> baja/borra el contenedor 
+  - docker ps -> lista el contenedor que esta levantado
+  - docker ps -a -> lista todos los contenedores que se levantaron y no fueron borrados
