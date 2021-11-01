@@ -7,7 +7,7 @@ module.exports = {
         banco: 'Galicia',
         titularDeCuenta: 'Pablo Marcelli',
         numeroDeCuenta: '3252A',
-        cbu: 1008,
+        cbu: '1008',
         tipoDeCuenta: 'Ahorro en pesos',
         sucursal: 'Haedo',
         createdAt: new Date(),

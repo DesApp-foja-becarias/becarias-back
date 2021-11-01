@@ -18,7 +18,7 @@ module.exports = {
         type: Sequelize.STRING,
       },
       cbu: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
       },
       tipoDeCuenta: {
         type: Sequelize.STRING,
