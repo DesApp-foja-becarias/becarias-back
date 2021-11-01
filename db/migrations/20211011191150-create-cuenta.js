@@ -8,22 +8,22 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      banco: {
+      banck: {
         type: Sequelize.STRING,
       },
-      titularDeCuenta: {
+      accountHolder: {
         type: Sequelize.STRING,
       },
-      numeroDeCuenta: {
+      accountNumber: {
+        type: Sequelize.STRING,
+      },
+      accountType: {
+        type: Sequelize.STRING,
+      },
+      branchOffice: {
         type: Sequelize.STRING,
       },
       cbu: {
-        type: Sequelize.STRING,
-      },
-      tipoDeCuenta: {
-        type: Sequelize.STRING,
-      },
-      sucursal: {
         type: Sequelize.STRING,
       },
       createdAt: {

@@ -4,12 +4,12 @@ module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.bulkInsert('Cuenta', [
       {
-        banco: 'Galicia',
-        titularDeCuenta: 'Pablo Marcelli',
-        numeroDeCuenta: '3252A',
+        bank: 'Galicia',
+        accountHolder: 'Pablo Marcelli',
+        accountNumber: '3252A',
+        accountType: 'Ahorro en pesos',
+        branchOffice: 'Haedo',
         cbu: '1008',
-        tipoDeCuenta: 'Ahorro en pesos',
-        sucursal: 'Haedo',
         createdAt: new Date(),
         updatedAt: new Date(),
       },

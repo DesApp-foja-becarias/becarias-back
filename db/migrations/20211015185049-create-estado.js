@@ -8,7 +8,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      estadoActual: {
+      actualState: {
         type: Sequelize.STRING,
       },
       createdAt: {

@@ -8,25 +8,28 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      Apellido: {
+      surname: {
         type: Sequelize.STRING,
       },
-      Nombre: {
+      name: {
         type: Sequelize.STRING,
       },
-      DNI: {
+      dni: {
         type: Sequelize.STRING,
       },
-      Telefono: {
+      telephone: {
         type: Sequelize.STRING,
       },
       Direccion: {
         type: Sequelize.STRING,
       },
-      Localidad: {
+      email: {
         type: Sequelize.STRING,
       },
-      Correo: {
+      actualState: {
+        type: Sequelize.STRING,
+      },
+      scholar: {
         type: Sequelize.STRING,
       },
       createdAt: {
