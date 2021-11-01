@@ -8,7 +8,7 @@ module.exports = {
         apellido: 'Azurduy',
         dni: '1231123',
         fechaNacimiento: '1780-07-12',
-        telefono: 46583214,
+        telefono: '46583214',
         direccion: 'Perón 3690',
         localidad: 'Ramos Mejía',
         correo: 'test@gmail.com',

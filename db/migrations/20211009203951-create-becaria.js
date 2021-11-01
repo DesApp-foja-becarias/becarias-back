@@ -21,7 +21,7 @@ module.exports = {
         type: Sequelize.DATE,
       },
       telefono: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
       },
       direccion: {
         type: Sequelize.STRING,

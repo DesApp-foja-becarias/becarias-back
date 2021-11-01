@@ -15,10 +15,10 @@ module.exports = {
         type: Sequelize.STRING,
       },
       DNI: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
       },
       Telefono: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
       },
       Direccion: {
         type: Sequelize.STRING,

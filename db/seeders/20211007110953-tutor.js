@@ -6,8 +6,8 @@ module.exports = {
       {
         Apellido: 'Sanchez',
         Nombre: 'Laura',
-        DNI: 25567890,
-        Telefono: 1134567890,
+        DNI: '25567890',
+        Telefono: '1134567890',
         Direccion: 'Belgrano 789',
         Localidad: 'Moron',
         Correo: 'slaura@gmail.com',
