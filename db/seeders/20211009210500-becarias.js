@@ -15,6 +15,7 @@ module.exports = {
         province: 'Buenos Aires',
         email: 'test@gmail.com',
         cuit: '12312432',
+        TutorId: 1,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
