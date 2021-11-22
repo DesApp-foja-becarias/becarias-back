@@ -5,7 +5,7 @@ module.exports = {
     await queryInterface.bulkInsert('Becaria', [
       {
         name: 'Juana',
-        surname: 'Azurduy',
+        lastname: 'Azurduy',
         dni: '1231123',
         birthday: '1780-07-12',
         telephone: '46583214',
