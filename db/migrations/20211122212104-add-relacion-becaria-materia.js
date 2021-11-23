@@ -2,14 +2,14 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('Becarias-Materias', {
+    await queryInterface.createTable('BecariasMaterias', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      BecariaID: {
+      BecariaId: {
         type: Sequelize.INTEGER,
         references: {
           model: 'Becaria',
@@ -18,7 +18,7 @@ module.exports = {
         onUpdate: 'CASCADE',
         onDelete: '',
       },
-      MateriaID: {
+      MateriaId: {
         type: Sequelize.INTEGER,
         references: {
           model: 'Materia',
@@ -39,6 +39,6 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('Becarias-Materias');
+    await queryInterface.dropTable('BecariasMaterias');
   },
 };
