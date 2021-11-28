@@ -144,8 +144,10 @@ Actualmente, este atributo hace referencia a otro atributo `lint-staged`.
 - Si se modifica `lint-staged`, se puede eliminar, o modificar la configuración, del chequeo (`eslint`) y/o el formateo (`prettier`) de código. Obviamente, para modificar las configuraciones, hay que mirar cómo en la documentación de [ESLint](https://eslint.org/) y/o [Prettier](https://prettier.io/).
 
 ### Comandos importantes
+
 ## Docker
-  - docker-compose stop <nombre de docker o id del container> -> baja/para el docker que esta levantado
-  - docker-compose down -> baja/borra el contenedor 
-  - docker ps -> lista el contenedor que esta levantado
-  - docker ps -a -> lista todos los contenedores que se levantaron y no fueron borrados
+
+- docker-compose stop <nombre de docker o id del container> -> baja/para el docker que esta levantado
+- docker-compose down -> baja/borra el contenedor
+- docker ps -> lista el contenedor que esta levantado
+- docker ps -a -> lista todos los contenedores que se levantaron y no fueron borrados.

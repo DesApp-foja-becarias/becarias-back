@@ -4,7 +4,7 @@ module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.bulkInsert('Carreras', [
       {
-        nombre: 'Tec en Infórmatica',
+        name: 'Tec en Infórmatica',
         createdAt: new Date(),
         updatedAt: new Date(),
       },
