@@ -5,7 +5,7 @@ module.exports = {
     await queryInterface.bulkInsert('Becaria', [
       {
         name: 'Juana',
-        surname: 'Azurduy',
+        lastname: 'Azurduy',
         dni: '1231123',
         birthday: '1780-07-12',
         telephone: '46583214',
@@ -15,6 +15,7 @@ module.exports = {
         province: 'Buenos Aires',
         email: 'test@gmail.com',
         cuit: '12312432',
+        TutorId: 1,
         createdAt: new Date(),
         updatedAt: new Date(),
       },

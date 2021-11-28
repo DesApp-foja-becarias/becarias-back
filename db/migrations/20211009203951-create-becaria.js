@@ -11,7 +11,7 @@ module.exports = {
       name: {
         type: Sequelize.STRING,
       },
-      surname: {
+      lastname: {
         type: Sequelize.STRING,
       },
       dni: {
@@ -29,16 +29,19 @@ module.exports = {
       city: {
         type: Sequelize.STRING,
       },
-      country: {
-        type: Sequelize.STRING,
-      },
-      province: {
-        type: Sequelize.STRING,
-      },
       email: {
         type: Sequelize.STRING,
       },
       cuit: {
+        type: Sequelize.STRING,
+      },
+      actualState: {
+        type: Sequelize.STRING,
+      },
+      weighing: {
+        type: Sequelize.STRING,
+      },
+      announcement: {
         type: Sequelize.STRING,
       },
       createdAt: {
