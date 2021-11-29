@@ -5,7 +5,6 @@ module.exports = {
     await queryInterface.bulkInsert('Actividads', [
       {
         name: 'Un estudiante, un compañero',
-
         createdAt: new Date(),
         updatedAt: new Date(),
       },
