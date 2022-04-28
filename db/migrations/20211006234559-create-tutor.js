@@ -26,9 +26,6 @@ module.exports = {
       actualState: {
         type: Sequelize.STRING,
       },
-      scholar: {
-        type: Sequelize.STRING,
-      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
