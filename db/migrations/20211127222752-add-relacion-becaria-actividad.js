@@ -19,7 +19,7 @@ module.exports = {
         onDelete: '',
       },
       ActividadId: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.UUID,
         references: {
           model: 'Actividads',
           key: 'id',
