@@ -2,18 +2,42 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    return queryInterface.addColumn('Becaria', 'TutorId', {
-      type: Sequelize.INTEGER,
-      references: {
-        model: 'Tutors',
-        key: 'id',
+    await queryInterface.createTable('BecariasTutors', {
+      id: {
+        type: Sequelize.UUID,
+        primaryKey: true,
+        defaultValue: Sequelize.UUIDV4,
       },
-      onUpdate: 'CASCADE',
-      onDelete: '',
+      BecariaId: {
+        type: Sequelize.UUID,
+        references: {
+          model: 'Becaria',
+          key: 'id',
+        },
+        onUpdate: 'CASCADE',
+        onDelete: '',
+      },
+      TutorId: {
+        type: Sequelize.UUID,
+        references: {
+          model: 'Tutors',
+          key: 'id',
+        },
+        onUpdate: 'CASCADE',
+        onDelete: '',
+      },
+      createdAt: {
+        allowNull: false,
+        type: Sequelize.DATE,
+      },
+      updatedAt: {
+        allowNull: false,
+        type: Sequelize.DATE,
+      },
     });
   },
 
   down: async (queryInterface, Sequelize) => {
-    return queryInterface.removeColumn('Becaria', 'TutorId');
+    return queryInterface.dropTable('BecariasTutors');
   },
 };

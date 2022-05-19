@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71d8ae5f-e6f2-49f0-a504-b77f4ce86fd7" name="Changes" comment="se modificaron los atributos de actividad y se creo la funcionalidad de enviar mail">
+      <change afterPath="$PROJECT_DIR$/lib/controllers/sendEmail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/routes/sendEmail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrations/20211015193547-create-actividad.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrations/20211015193547-create-actividad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeders/20211015194036-actividades.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeders/20211015194036-actividades.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/controllers/actividad_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/controllers/actividad_controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/actividad.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/actividad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/becaria.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/becaria.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/becariaActividad.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/becariaActividad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="285DpwEIgOaVEqEGoqJyqQakjEe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/rouse/Documentos/FojaBecarias/becarias-back"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71d8ae5f-e6f2-49f0-a504-b77f4ce86fd7" name="Changes" comment="" />
+      <created>1650497739746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650497739746</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="se modificaron los atributos de actividad y se creo la funcionalidad de enviar mail" />
+    <option name="LAST_COMMIT_MESSAGE" value="se modificaron los atributos de actividad y se creo la funcionalidad de enviar mail" />
+  </component>
+</project>
