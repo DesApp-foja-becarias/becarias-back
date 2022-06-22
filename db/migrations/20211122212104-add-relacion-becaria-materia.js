@@ -18,13 +18,7 @@ module.exports = {
         onDelete: '',
       },
       MateriaId: {
-        type: Sequelize.UUID,
-        references: {
-          model: 'Materia',
-          key: 'id',
-        },
-        onUpdate: 'CASCADE',
-        onDelete: '',
+        type: Sequelize.INTEGER,
       },
       createdAt: {
         allowNull: false,

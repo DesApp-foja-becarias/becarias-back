@@ -18,13 +18,7 @@ module.exports = {
         onDelete: '',
       },
       CarreraId: {
-        type: Sequelize.UUID,
-        references: {
-          model: 'Carreras',
-          key: 'id',
-        },
-        onUpdate: 'CASCADE',
-        onDelete: '',
+        type: Sequelize.INTEGER,
       },
       createdAt: {
         allowNull: false,
